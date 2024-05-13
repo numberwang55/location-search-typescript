@@ -5,6 +5,8 @@ import { useState } from "react";
 
 function App() {
   const [place, setPlace] = useState<Place | null>(null)
+  console.log(place);
+  
 
   return (
     <div className="h-screen w-screen grid grid-cols-12">
