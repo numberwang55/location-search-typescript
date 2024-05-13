@@ -13,8 +13,7 @@ export default function LocationSearch({ onPlaceClick }: LocationSearchProps) {
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
-    search(term)
-    
+    await search(term)
   };
 
   return (
